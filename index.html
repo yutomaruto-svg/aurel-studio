@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AUREL STUDIO</title>
+<meta name="description" content="Aurel Studio is an independent creative workspace for visual inspiration and original illustration ideas.">
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#f4f2ee;color:#292923;
+ font-family:Arial,"Helvetica Neue",sans-serif;
+ line-height:1.8;
+}
+header{
+ padding:28px 8%;display:flex;
+ justify-content:space-between;align-items:center;
+ border-bottom:1px solid #e2dfd8;
+}
+.logo{letter-spacing:5px;font-size:14px;font-weight:bold}
+nav a{color:#777;text-decoration:none;margin-left:25px;font-size:12px}
+main{max-width:1100px;margin:auto;padding:100px 8%}
+.tag{font-size:11px;letter-spacing:4px;color:#999}
+h1{font-size:clamp(42px,7vw,76px);font-weight:400;line-height:1.2;letter-spacing:-3px}
+.lead{max-width:600px;color:#777;font-size:15px}
+.line{border-top:1px solid #dedbd4;margin:75px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fffefa;padding:28px;border:1px solid #e5e1da;border-radius:12px}
+.card h2{font-size:15px;font-weight:500}
+.card p{font-size:12px;color:#888}
+footer{padding:30px 8%;border-top:1px solid #dedbd4;color:#888;font-size:11px}
+footer a{color:inherit}
+@media(max-width:650px){
+ main{padding:65px 7%}
+ .grid{grid-template-columns:1fr}
+ header{padding:22px 7%}
+ nav a{margin-left:10px}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="logo">AUREL STUDIO</div>
+ <nav>
+  <a href="#about">ABOUT</a>
+  <a href="privacy.html">PRIVACY</a>
+ </nav>
+</header>
+
+<main>
+ <section id="about">
+  <div class="tag">INDEPENDENT CREATIVE WORKSPACE</div>
+  <h1>Make room for<br>new ideas.</h1>
+  <p class="lead">
+   Aurel Studio is a creative workspace for collecting visual references,
+   exploring design directions, and developing original illustration ideas.
+  </p>
+ </section>
+
+ <div class="line"></div>
+
+ <div class="grid">
+  <section class="card">
+   <div class="tag">01 / COLLECT</div>
+   <h2>Reference Organization</h2>
+   <p>Organize visual references and creative materials in one place.</p>
+  </section>
+
+  <section class="card">
+   <div class="tag">02 / EXPLORE</div>
+   <h2>Visual Direction</h2>
+   <p>Explore color palettes, compositions, moods, and visual motifs.</p>
+  </section>
+
+  <section class="card">
+   <div class="tag">03 / CREATE</div>
+   <h2>Original Creation</h2>
+   <p>Develop your own ideas and turn inspiration into original artwork.</p>
+  </section>
+ </div>
+</main>
+
+<footer>
+ © AUREL STUDIO ·
+ <a href="privacy.html">Privacy Policy</a>
+ <p>Aurel Studio is an independent project and is not affiliated with Pinterest.</p>
+</footer>
+</body>
+</html>
